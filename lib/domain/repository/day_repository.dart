@@ -1,0 +1,8 @@
+import 'package:my_clean_arch/domain/model/day.dart';
+
+abstract class DayRepository {
+  Future<Day> getDay({
+    required double latitude,
+    required double longitude,
+  });
+}
