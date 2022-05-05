@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:my_clean_arch/data/api/api_day.dart';
+import 'package:my_clean_arch/data/api/model/api_day.dart';
 import 'package:my_clean_arch/data/api/request/get_day_body.dart';
 
 class SunriseService {
